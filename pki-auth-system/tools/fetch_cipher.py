@@ -36,5 +36,5 @@ def run():
     except Exception as e:
         print(f"!! Critical Failure: {e}")
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     run()
